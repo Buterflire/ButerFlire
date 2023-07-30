@@ -75,3 +75,6 @@ O Fogo é uma Magia Elemental Intangível
 Tecla de Atalho | Custo de Mana | Descrição
 :-------------: | :-----------: | :-------:
 Z               | 250           | O usuário dispara uma bola de fogo que explode ao entrar em contato com algum sólido
+X               | 500           | Descrição da Skill aqui
+C               | 1000          | Descrição da Skill aqui
+V               | 2500          | Descrição da Skill aqui
