@@ -3,14 +3,6 @@
 ## <a name="jogabilidade"> Jogabilidade
 
 ### <a name="jogabilidade_stats"> Stats
-- HP
-- Mana
-- Força
-- Agilidade
-- Resistência
-- Sorte
-- Percepção
-- Defesa
 
 #### <a name="stats_hp"> HP
 Quantidade de vida
@@ -81,5 +73,5 @@ O Fogo é uma Magia Elemental Intangível
 ###### <a name="combate_magias_fogo_skills"> Skills
 
 Tecla de Atalho | Custo de Mana | Descrição
---------------- | ------------- | ---------
+:-------------: | :-----------: | :-------:
 Z               | 250           | O usuário dispara uma bola de fogo que explode ao entrar em contato com algum sólido
