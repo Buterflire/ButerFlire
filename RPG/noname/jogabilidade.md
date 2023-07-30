@@ -1,32 +1,19 @@
 # Estrutura 
 
-## <a name="jogabilidade_stats"> Stats
+## <a name="stats"> Stats
 
-### <a name="stats_hp"> HP
-Quantidade de vida
+Stats       | Aumento/ponto investido   | Descrição
+:-----:     | :-----------------------: | :--------:
+HP          | 5                         | Máximo de vida
+Mana        | 5                         | Máximo de Mana
+Força       | 5                         | Força do ataque com [Estilo](#combate_estilos) e [Equipamentos](#combate_equipamentos)
+Agilidade   | 1                         | Velocidade de movimentação
+Resistência | 5                         | Diminuição de dano sofrido
+Sorte       | 1                         | Chances de conseguir itens
+Percepção   | 1                         | Distância que um inimigo será percebido
+Defesa      | 5                         | Chances de defender um [Ataque Físico](#combate_estilos)
 
-### <a name="stats_mana"> Mana
-Quantidade de poder mágico
-
-### <a name="stats_forca"> Força
-Força do ataque com soco e equipamentos
-
-### <a name="stats_agilidade"> Agilidade
-Velocidade de movimentação
-
-### <a name="stats_resistencia"> Resistência
-Diminuição de dano sofrido
-
-### <a name="stats_sorte"> Sorte
-Chances de conseguir itens
-
-### <a name="stats_percepcao"> Percepção
-Distância que um inimigo será percebido
-
-### <a name="stats_defesa"> Defesa
-Chances de defender um ataque. Quando atacado, uma conta matemática será feita para decidir se um [Ataque Físico]() foi ou não defendido
-
-## <a name="jogabilidade_status"> Status
+## <a name="status"> Status
 
 ### <a name="status_gold"> Gold
 Dinheiro comum do jogo. Pode ser usado para comprar itens em lojas, aprender magias com NPCs, entre ouros
@@ -43,7 +30,7 @@ Experiência acumulada para aumentar o nível do personagem
 ### <a name="status_inventario"> Inventário
 Inventário que retém todos os itens pertecentes a este personagem
 
-## <a name="jogabilidade_combate"> Combate
+## <a name="combate"> Combate
 
 ### <a name="combate_estilos"> Estilos
 Estilos de luta para lutar de mãos vazias. Os Estlios de Luta são:
@@ -78,4 +65,13 @@ C               | 1000          | Descrição da Skill aqui
 V               | 2500          | Descrição da Skill aqui
 F               | 5000          | Descrição da Skill aqui
 
-##
+## <a name="racas"> Raças
+
+### <a name="racas_"> Humanos
+Humanos comuns para a atual era. São uma raça equilibrada, seus stats iniciais são:
+
+Stats   | Quantidade
+:-----: | :----:
+HP      | 200
+Mana    | 200
+Força   | 
