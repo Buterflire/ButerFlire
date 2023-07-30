@@ -1,59 +1,63 @@
-# Estrutura 
+# Jogabilidade 
 
 ## <a name="stats"> Stats
+
+### <a name="stats_pontos"> Pontos de Stats
+Pontos de Stats podem ser usados para melhorar suas estatísticas
 
 Stats       | Aumento/ponto investido   | Descrição
 :-----:     | :-----------------------: | :--------:
 HP          | 5                         | Máximo de vida
 Mana        | 5                         | Máximo de Mana
-Força       | 5                         | Força do ataque com [Estilo](#combate_estilos) e [Equipamentos](#combate_equipamentos)
+Força       | 5                         | Força de [Ataques Físicos](#combate_fisico)
 Agilidade   | 1                         | Velocidade de movimentação
 Resistência | 5                         | Diminuição de dano sofrido
 Sorte       | 1                         | Chances de conseguir itens
 Percepção   | 1                         | Distância que um inimigo será percebido
-Defesa      | 5                         | Chances de defender um [Ataque Físico](#combate_estilos)
+Defesa      | 5                         | Chances de defender um [Ataque Físico](#combate_fisico)
 
 ## <a name="status"> Status
 
-### <a name="status_gold"> Gold
-Dinheiro comum do jogo. Pode ser usado para comprar itens em lojas, aprender magias com NPCs, entre ouros
-
-### <a name="status_bgc"> BGC
-Dinheiro especial do jogo. Pode ser usado para comprar itens que não são encontrados nas lojas mas que são dropados de NPCs e Bosses
-
-### <a name="status_nivel"> Nível
-Nível do personagem
-
-### <a name="status_experiencia"> Experiência
-Experiência acumulada para aumentar o nível do personagem
-
-### <a name="status_inventario"> Inventário
-Inventário que retém todos os itens pertecentes a este personagem
+Status      | Descrição
+:---------: | :-------:
+Gold        | Dinheiro comum do jogo. Pode ser usado para comprar itens em lojas, aprender magias com NPCs, entre ouros
+BGC         | Dinheiro especial do jogo. Pode ser usado para comprar itens que não são encontrados nas lojas mas que são dropados de NPCs e Bosses
+Nível       | Nível atual do personagem
+Experiência | Experiência acumulada para aumentar o nível do personagem
+Inventário  | Inventário que retém todos os itens pertecentes a este personagem
 
 ## <a name="combate"> Combate
 
-### <a name="combate_estilos"> Estilos
-Estilos de luta para lutar de mãos vazias. Os Estlios de Luta são:
+### <a name="combate_fisico"> Ataque Físico
 
-### <a name="combate_equipamentos"> Equipamentos
-Equipamentos para usar no combate. Os equipamentos são:
+#### <a name="combate_fisico_estilos"> Estilos
+Estilos de luta é um Combate Físico de mãos vazias
 
-### <a name="combate_magias"> Magias
-Cada tipo de magia tem habilidades e formas de lutar. As Magias Elementais são:
-- Fogo
-- Gelo
-- Água
-- Ar
-- Terra
-- Escuridão
-- Luz
-- Magma
-- Trovão
+Estilo      | Descrição
+:---------: | :-------:
 
-#### <a name="combate_magias_fogo"> Fogo
+#### <a name="combate_fisico_equipamentos"> Equipamentos
+Equipamentos é um Combate Físico usando armas
 
-##### <a name="combate_magias_fogo_definicao"> Definição
-O Fogo é uma Magia Elemental Intangível
+Equipamento | Descrição
+:---------: | :-------:
+
+### <a name="combate_magico"> Ataque Mágico
+
+#### <a name="combate_magico_elementos"> Elementos
+Cada tipo de magia tem habilidades e formas de lutar
+
+Elemento    | Mestre        | Tipo          | Superior à    | Equivalente à             | Inferior à    |
+:---------: | :-------:     | :-----------: | :-----------: | :-----------:             | :-----------: |
+Fogo        | Blaze Heart   | Intangível    | Ar, Escuridão | Terra, Luz, Trovão, Magma | Gelo, Água    |
+Gelo        | Frost Lucius  | Tangível      |
+Água        | Hydro Mayne   | Tangível      |
+Ar          | Aero Phyiron  | Intangível    |
+Terra       | Geomagus Gaia | Tangível      |
+Escuridão   | Eclipsy       | Intangível    |
+Luz         | Illuminate    | Intangível    |
+Magma       | Moltenfury    | Tangível      |
+Trovão      | Thunderfury   | Intangível    |
 
 ##### <a name="combate_magias_fogo_skills"> Skills
 
